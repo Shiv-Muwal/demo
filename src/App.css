@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.digital-stroke{
+    background: transparent;
+   
+      color: transparent;
+      -webkit-text-stroke: 1px white;
+    
+}
+.slick-center .slide {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slick-slide {
+  opacity: 0.7; 
+  transition: opacity 0.3s ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slick-center {
+  opacity: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slick-slider{
+  height: 600px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.slick-list{
+  padding: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slick-track{
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
